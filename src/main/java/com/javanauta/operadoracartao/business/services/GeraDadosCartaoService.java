@@ -10,6 +10,10 @@ import java.util.Random;
 @Service
 public class GeraDadosCartaoService {
 
+
+
+
+
     private static final String PREFIXO_NUMERO_CARTAO = "4000";
     private static final int TAMANHO_NUMERO_CARTAO = 16;
 
