@@ -23,6 +23,8 @@ public class GeraDadosCartaoService {
         return new CartaoEntity(numeroCartao, dataExpiracao, cvv, limiteCredito, cliente, cliente.getCartao().getUltimaAlteracaoLimite(),
                 cliente.getCartao().getDataVencimentoFatura());
 
+
+
     }
 
     private String gerarNumeroCartao() {
